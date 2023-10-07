@@ -272,7 +272,7 @@ public class ChipInfo {
                 "NOM_L3 352",
                 "TURBO 384",
                 "TURBO_L0 400",
-                "TURBO_L1 416"
+                "TURBO_L1 416",
                 "TURBO_L2 432",
                 "SUPER_TURBO 448",
                 "SUPER_TURBO_NO_CPR 464"
@@ -625,7 +625,7 @@ public class ChipInfo {
                 "NOM_L3 352",
                 "TURBO 384",
                 "TURBO_L0 400",
-                "TURBO_L1 416"
+                "TURBO_L1 416",
                 "TURBO_L2 432",
                 "TURBO_L3 448",
                 "SUPER_TURBO 464",
