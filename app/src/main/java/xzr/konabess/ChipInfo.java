@@ -156,7 +156,7 @@ public class ChipInfo {
     }
 
     private static class rpmh_levels_kona {
-        public static final int[] levels = {16, 48, 52, 56, 60, 64, 72, 76, 80, 88, 96, 112, 128, 144, 168, 192, 208, 224, 236, 248, 256, 288,320,
+        public static final int[] levels = {16, 48, 52, 56, 60, 64, 72, 76, 80, 88, 96, 112, 128, 144, 168, 192, 208, 224, 236, 248, 256, 288, 320,
                 336, 352, 384, 400, 416};
         public static final String[] level_str = {
                 "RETENTION 16",
@@ -177,7 +177,7 @@ public class ChipInfo {
                 "SVS_L1 192",
                 "208",
                 "SVS_L2 224",
-                "236"
+                "236",
                 "248",
                 "NOM 256",
                 "NOM_L0 288",
@@ -195,8 +195,12 @@ public class ChipInfo {
         public static final int[] levels = {
                 16 + RPMH_REGULATOR_LEVEL_OFFSET,
                 48 + RPMH_REGULATOR_LEVEL_OFFSET,
+                52 + RPMH_REGULATOR_LEVEL_OFFSET,
                 56 + RPMH_REGULATOR_LEVEL_OFFSET,
+                60 + RPMH_REGULATOR_LEVEL_OFFSET,
                 64 + RPMH_REGULATOR_LEVEL_OFFSET,
+                72 + RPMH_REGULATOR_LEVEL_OFFSET,
+                76 + RPMH_REGULATOR_LEVEL_OFFSET,
                 80 + RPMH_REGULATOR_LEVEL_OFFSET,
                 96 + RPMH_REGULATOR_LEVEL_OFFSET,
                 128 + RPMH_REGULATOR_LEVEL_OFFSET,
@@ -204,6 +208,7 @@ public class ChipInfo {
                 192 + RPMH_REGULATOR_LEVEL_OFFSET,
                 224 + RPMH_REGULATOR_LEVEL_OFFSET,
                 256 + RPMH_REGULATOR_LEVEL_OFFSET,
+                288 + RPMH_REGULATOR_LEVEL_OFFSET,
                 320 + RPMH_REGULATOR_LEVEL_OFFSET,
                 336 + RPMH_REGULATOR_LEVEL_OFFSET,
                 352 + RPMH_REGULATOR_LEVEL_OFFSET,
@@ -211,273 +216,6 @@ public class ChipInfo {
                 400 + RPMH_REGULATOR_LEVEL_OFFSET,
                 416 + RPMH_REGULATOR_LEVEL_OFFSET
         };
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
-    }
-
-    private static class rpmh_levels_lahaina {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416, 432, 448, 464};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1",
-                "TURBO_L2",
-                "SUPER_TURBO",
-                "SUPER_TURBO_NO_CPR"
-        };
-    }
-
-    private static class rpmh_levels_lahaina_singleBin {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
-    }
-
-    private static class rpmh_levels_lito {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
-    }
-
-    private static class rpmh_levels_lagoon {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
-    }
-
-    private static class rpmh_levels_shima {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
-    }
-
-    private static class rpmh_levels_yupik {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
-    }
-
-    private static class rpmh_levels_waipio {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
-    }
-
-    private static class rpmh_levels_cape {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
-    }
-
-    private static class rpmh_levels_diwali {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
-    }
-
-    private static class rpmh_levels_ukee {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
-    }
-
-    private static class rpmh_levels_kalama {
-        public static final int[] levels = {16, 48, 52, 56, 60, 64, 72, 80, 96, 128, 144, 192,
-                224, 256, 288, 320, 336, 384, 400, 416, 432, 448, 464, 480};
         public static final String[] level_str = {
                 "RETENTION",
                 "MIN_SVS",
@@ -496,13 +234,402 @@ public class ChipInfo {
                 "NOM_L0",
                 "NOM_L1",
                 "NOM_L2",
+                "NOM_L3",
                 "TURBO",
                 "TURBO_L0",
-                "TURBO_L1",
-                "TURBO_L2",
-                "TURBO_L3",
-                "SUPER_TURBO",
-                "SUPER_TURBO_NO_CPR"
+                "TURBO_L1"
+        };
+    }
+
+    private static class rpmh_levels_lahaina {
+        public static final int[] levels = {16, 48, 52, 56, 60, 64, 72, 76, 80, 88, 96, 112, 128, 144, 168, 192, 208, 224, 236, 248, 256, 288, 320,
+                336, 352, 384, 400, 416, 432, 448, 464};
+        public static final String[] level_str = {
+                "RETENTION 16",
+                "MIN_SVS 48",
+                "LOW_SVS_D2 52",
+                "LOW_SVS_D1 56",
+                "LOW_SVS_D0 60",
+                "LOW_SVS 64",
+                "LOW_SVS_P1 72",
+                "LOW_SVS_P2 76",
+                "LOW_SVS_L1 80",
+                "88",
+                "LOW_SVS_L2 96",
+                "112",
+                "SVS 128",
+                "SVS_L0 144",
+                "168",
+                "SVS_L1 192",
+                "208",
+                "SVS_L2 224",
+                "236",
+                "248",
+                "NOM 256",
+                "NOM_L0 288",
+                "NOM_L1 320",
+                "NOM_L2 336",
+                "NOM_L3 352",
+                "TURBO 384",
+                "TURBO_L0 400",
+                "TURBO_L1 416"
+                "TURBO_L2 432",
+                "SUPER_TURBO 448",
+                "SUPER_TURBO_NO_CPR 464"
+        };
+    }
+
+    private static class rpmh_levels_lahaina_singleBin {
+        public static final int[] levels = {16, 48, 52, 56, 60, 64, 72, 76, 80, 88, 96, 112, 128, 144, 168, 192, 208, 224, 236, 248, 256, 288, 320,
+                336, 352, 384, 400, 416};
+        public static final String[] level_str = {
+                "RETENTION 16",
+                "MIN_SVS 48",
+                "LOW_SVS_D2 52",
+                "LOW_SVS_D1 56",
+                "LOW_SVS_D0 60",
+                "LOW_SVS 64",
+                "LOW_SVS_P1 72",
+                "LOW_SVS_P2 76",
+                "LOW_SVS_L1 80",
+                "88",
+                "LOW_SVS_L2 96",
+                "112",
+                "SVS 128",
+                "SVS_L0 144",
+                "168",
+                "SVS_L1 192",
+                "208",
+                "SVS_L2 224",
+                "236",
+                "248",
+                "NOM 256",
+                "NOM_L0 288",
+                "NOM_L1 320",
+                "NOM_L2 336",
+                "NOM_L3 352",
+                "TURBO 384",
+                "TURBO_L0 400",
+                "TURBO_L1 416"
+        };
+    }
+
+    private static class rpmh_levels_lito {
+        public static final int[] levels = {16, 48, 52, 56, 60, 64, 72, 76, 80, 88, 96, 112, 128, 144, 168, 192, 208, 224, 236, 248, 256, 288, 320,
+                336, 352, 384, 400, 416};
+        public static final String[] level_str = {
+                "RETENTION 16",
+                "MIN_SVS 48",
+                "LOW_SVS_D2 52",
+                "LOW_SVS_D1 56",
+                "LOW_SVS_D0 60",
+                "LOW_SVS 64",
+                "LOW_SVS_P1 72",
+                "LOW_SVS_P2 76",
+                "LOW_SVS_L1 80",
+                "88",
+                "LOW_SVS_L2 96",
+                "112",
+                "SVS 128",
+                "SVS_L0 144",
+                "168",
+                "SVS_L1 192",
+                "208",
+                "SVS_L2 224",
+                "236",
+                "248",
+                "NOM 256",
+                "NOM_L0 288",
+                "NOM_L1 320",
+                "NOM_L2 336",
+                "NOM_L3 352",
+                "TURBO 384",
+                "TURBO_L0 400",
+                "TURBO_L1 416"
+        };
+    }
+
+    private static class rpmh_levels_lagoon {
+        public static final int[] levels = {16, 48, 52, 56, 60, 64, 72, 76, 80, 88, 96, 112, 128, 144, 168, 192, 208, 224, 236, 248, 256, 288, 320,
+                336, 352, 384, 400, 416};
+        public static final String[] level_str = {
+                "RETENTION 16",
+                "MIN_SVS 48",
+                "LOW_SVS_D2 52",
+                "LOW_SVS_D1 56",
+                "LOW_SVS_D0 60",
+                "LOW_SVS 64",
+                "LOW_SVS_P1 72",
+                "LOW_SVS_P2 76",
+                "LOW_SVS_L1 80",
+                "88",
+                "LOW_SVS_L2 96",
+                "112",
+                "SVS 128",
+                "SVS_L0 144",
+                "168",
+                "SVS_L1 192",
+                "208",
+                "SVS_L2 224",
+                "236",
+                "248",
+                "NOM 256",
+                "NOM_L0 288",
+                "NOM_L1 320",
+                "NOM_L2 336",
+                "NOM_L3 352",
+                "TURBO 384",
+                "TURBO_L0 400",
+                "TURBO_L1 416"
+        };
+    }
+
+    private static class rpmh_levels_shima {
+        public static final int[] levels = {16, 48, 52, 56, 60, 64, 72, 76, 80, 88, 96, 112, 128, 144, 168, 192, 208, 224, 236, 248, 256, 288, 320,
+                336, 352, 384, 400, 416};
+        public static final String[] level_str = {
+                "RETENTION 16",
+                "MIN_SVS 48",
+                "LOW_SVS_D2 52",
+                "LOW_SVS_D1 56",
+                "LOW_SVS_D0 60",
+                "LOW_SVS 64",
+                "LOW_SVS_P1 72",
+                "LOW_SVS_P2 76",
+                "LOW_SVS_L1 80",
+                "88",
+                "LOW_SVS_L2 96",
+                "112",
+                "SVS 128",
+                "SVS_L0 144",
+                "168",
+                "SVS_L1 192",
+                "208",
+                "SVS_L2 224",
+                "236",
+                "248",
+                "NOM 256",
+                "NOM_L0 288",
+                "NOM_L1 320",
+                "NOM_L2 336",
+                "NOM_L3 352",
+                "TURBO 384",
+                "TURBO_L0 400",
+                "TURBO_L1 416"
+        };
+    }
+
+    private static class rpmh_levels_yupik {
+        public static final int[] levels = {16, 48, 52, 56, 60, 64, 72, 76, 80, 88, 96, 112, 128, 144, 168, 192, 208, 224, 236, 248, 256, 288, 320,
+                336, 352, 384, 400, 416};
+        public static final String[] level_str = {
+                "RETENTION 16",
+                "MIN_SVS 48",
+                "LOW_SVS_D2 52",
+                "LOW_SVS_D1 56",
+                "LOW_SVS_D0 60",
+                "LOW_SVS 64",
+                "LOW_SVS_P1 72",
+                "LOW_SVS_P2 76",
+                "LOW_SVS_L1 80",
+                "88",
+                "LOW_SVS_L2 96",
+                "112",
+                "SVS 128",
+                "SVS_L0 144",
+                "168",
+                "SVS_L1 192",
+                "208",
+                "SVS_L2 224",
+                "236",
+                "248",
+                "NOM 256",
+                "NOM_L0 288",
+                "NOM_L1 320",
+                "NOM_L2 336",
+                "NOM_L3 352",
+                "TURBO 384",
+                "TURBO_L0 400",
+                "TURBO_L1 416"
+        };
+    }
+
+    private static class rpmh_levels_waipio {
+        public static final int[] levels = {16, 48, 52, 56, 60, 64, 72, 76, 80, 88, 96, 112, 128, 144, 168, 192, 208, 224, 236, 248, 256, 288, 320,
+                336, 352, 384, 400, 416};
+        public static final String[] level_str = {
+                "RETENTION 16",
+                "MIN_SVS 48",
+                "LOW_SVS_D2 52",
+                "LOW_SVS_D1 56",
+                "LOW_SVS_D0 60",
+                "LOW_SVS 64",
+                "LOW_SVS_P1 72",
+                "LOW_SVS_P2 76",
+                "LOW_SVS_L1 80",
+                "88",
+                "LOW_SVS_L2 96",
+                "112",
+                "SVS 128",
+                "SVS_L0 144",
+                "168",
+                "SVS_L1 192",
+                "208",
+                "SVS_L2 224",
+                "236",
+                "248",
+                "NOM 256",
+                "NOM_L0 288",
+                "NOM_L1 320",
+                "NOM_L2 336",
+                "NOM_L3 352",
+                "TURBO 384",
+                "TURBO_L0 400",
+                "TURBO_L1 416"
+        };
+    }
+
+    private static class rpmh_levels_cape {
+        public static final int[] levels = {16, 48, 52, 56, 60, 64, 72, 76, 80, 88, 96, 112, 128, 144, 168, 192, 208, 224, 236, 248, 256, 288, 320,
+                336, 352, 384, 400, 416};
+        public static final String[] level_str = {
+                "RETENTION 16",
+                "MIN_SVS 48",
+                "LOW_SVS_D2 52",
+                "LOW_SVS_D1 56",
+                "LOW_SVS_D0 60",
+                "LOW_SVS 64",
+                "LOW_SVS_P1 72",
+                "LOW_SVS_P2 76",
+                "LOW_SVS_L1 80",
+                "88",
+                "LOW_SVS_L2 96",
+                "112",
+                "SVS 128",
+                "SVS_L0 144",
+                "168",
+                "SVS_L1 192",
+                "208",
+                "SVS_L2 224",
+                "236",
+                "248",
+                "NOM 256",
+                "NOM_L0 288",
+                "NOM_L1 320",
+                "NOM_L2 336",
+                "NOM_L3 352",
+                "TURBO 384",
+                "TURBO_L0 400",
+                "TURBO_L1 416"
+        };
+    }
+
+    private static class rpmh_levels_diwali {
+        public static final int[] levels = {16, 48, 52, 56, 60, 64, 72, 76, 80, 88, 96, 112, 128, 144, 168, 192, 208, 224, 236, 248, 256, 288, 320,
+                336, 352, 384, 400, 416};
+        public static final String[] level_str = {
+                "RETENTION 16",
+                "MIN_SVS 48",
+                "LOW_SVS_D2 52",
+                "LOW_SVS_D1 56",
+                "LOW_SVS_D0 60",
+                "LOW_SVS 64",
+                "LOW_SVS_P1 72",
+                "LOW_SVS_P2 76",
+                "LOW_SVS_L1 80",
+                "88",
+                "LOW_SVS_L2 96",
+                "112",
+                "SVS 128",
+                "SVS_L0 144",
+                "168",
+                "SVS_L1 192",
+                "208",
+                "SVS_L2 224",
+                "236",
+                "248",
+                "NOM 256",
+                "NOM_L0 288",
+                "NOM_L1 320",
+                "NOM_L2 336",
+                "NOM_L3 352",
+                "TURBO 384",
+                "TURBO_L0 400",
+                "TURBO_L1 416"
+        };
+    }
+
+    private static class rpmh_levels_ukee {
+        public static final int[] levels = {16, 48, 52, 56, 60, 64, 72, 76, 80, 88, 96, 112, 128, 144, 168, 192, 208, 224, 236, 248, 256, 288, 320,
+                336, 352, 384, 400, 416};
+        public static final String[] level_str = {
+                "RETENTION 16",
+                "MIN_SVS 48",
+                "LOW_SVS_D2 52",
+                "LOW_SVS_D1 56",
+                "LOW_SVS_D0 60",
+                "LOW_SVS 64",
+                "LOW_SVS_P1 72",
+                "LOW_SVS_P2 76",
+                "LOW_SVS_L1 80",
+                "88",
+                "LOW_SVS_L2 96",
+                "112",
+                "SVS 128",
+                "SVS_L0 144",
+                "168",
+                "SVS_L1 192",
+                "208",
+                "SVS_L2 224",
+                "236",
+                "248",
+                "NOM 256",
+                "NOM_L0 288",
+                "NOM_L1 320",
+                "NOM_L2 336",
+                "NOM_L3 352",
+                "TURBO 384",
+                "TURBO_L0 400",
+                "TURBO_L1 416"
+        };
+    }
+
+    private static class rpmh_levels_kalama {
+        public static final int[] levels = {16, 48, 52, 56, 60, 64, 72, 76, 80, 88, 96, 112, 128, 144, 168, 192, 208, 224, 236, 248, 256, 288, 320,
+                336, 352, 384, 400, 416, 432, 448, 464, 480};
+        public static final String[] level_str = {
+                "RETENTION 16",
+                "MIN_SVS 48",
+                "LOW_SVS_D2 52",
+                "LOW_SVS_D1 56",
+                "LOW_SVS_D0 60",
+                "LOW_SVS 64",
+                "LOW_SVS_P1 72",
+                "LOW_SVS_P2 76",
+                "LOW_SVS_L1 80",
+                "88",
+                "LOW_SVS_L2 96",
+                "112",
+                "SVS 128",
+                "SVS_L0 144",
+                "168",
+                "SVS_L1 192",
+                "208",
+                "SVS_L2 224",
+                "236",
+                "248",
+                "NOM 256",
+                "NOM_L0 288",
+                "NOM_L1 320",
+                "NOM_L2 336",
+                "NOM_L3 352",
+                "TURBO 384",
+                "TURBO_L0 400",
+                "TURBO_L1 416"
+                "TURBO_L2 432",
+                "TURBO_L3 448",
+                "SUPER_TURBO 464",
+                "SUPER_TURBO_NO_CPR 480"
         };
     }
 
