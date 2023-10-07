@@ -161,12 +161,12 @@ public class ChipInfo {
         public static final String[] level_str = {
                 "RETENTION",
                 "MIN_SVS 370mV",
-                "380mV",
+                "LOW_SVS_D2 380mV",
                 "LOW_SVS_D1 390mV",
-                "400mV",
+                "LOW_SVS_D0 400mV",
                 "LOW_SVS 410mV",
-                "430mV",
-                "440mV",
+                "LOW_SVS_P1 430mV",
+                "LOW_SVS_P2 440mV",
                 "LOW_SVS_L1 450mV",
                 "470mV",
                 "LOW_SVS_L2 490mV",
@@ -179,13 +179,13 @@ public class ChipInfo {
                 "SVS_L2 810mV",
                 "870mV",
                 "NOM 890mV",
-                "970mV",
+                "NOM_L0 970mV",
                 "NOM_L1 1050mV",
                 "NOM_L2 1090mV",
                 "NOM_L3 1130mV",
                 "TURBO 1210mV",
                 "TURBO_L0 1250mV",
-                "TURBO_L1 1290mV(max)"
+                "TURBO_L1 1290mV"
         };
     }
 
