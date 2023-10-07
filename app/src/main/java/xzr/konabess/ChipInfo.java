@@ -156,26 +156,36 @@ public class ChipInfo {
     }
 
     private static class rpmh_levels_kona {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
+        public static final int[] levels = {16, 48, 52, 56, 60, 64, 72, 76, 80, 88, 96, 112, 128, 144, 168, 192, 208, 224, 248, 256, 288,320,
                 336, 352, 384, 400, 416};
         public static final String[] level_str = {
                 "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
+                "MIN_SVS 370mV",
+                "380mV",
+                "LOW_SVS_D1 390mV",
+                "400mV",
+                "LOW_SVS 410mV",
+                "430mV",
+                "440mV",
+                "LOW_SVS_L1 450mV",
+                "470mV",
+                "LOW_SVS_L2 490mV",
+                "530mV",
+                "SVS 570mV",
+                "SVS_L0 610mV",
+                "670mV",
+                "SVS_L1 730mV",
+                "770mV",
+                "SVS_L2 810mV",
+                "870mV",
+                "NOM 890mV",
+                "970mV",
+                "NOM_L1 1050mV",
+                "NOM_L2 1090mV",
+                "NOM_L3 1130mV",
+                "TURBO 1210mV",
+                "TURBO_L0 1250mV",
+                "TURBO_L1 1290mV(max)"
         };
     }
 
