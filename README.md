@@ -47,3 +47,7 @@
 ### My modifications
 
 I transplanted some Snapdragon 8gen2 voltage levels for sm8250 and the other chips to adjust the voltage better
+
+### Konabess voltage levels and real voltage
+<img src="https://raw.githubusercontent.com/AirStewart350/KonaBess/master/screenshots/IMG_20231009_160008.jpg" width="180" height="400" /> <img src="https://raw.githubusercontent.com/AirStewart350/KonaBess/master/screenshots/IMG_20231009_160008.jpg" width="180" height="400" />
+the minimum voltage for sm8250 is Min_svs(370mV)
