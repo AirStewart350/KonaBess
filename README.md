@@ -50,4 +50,5 @@ I transplanted some Snapdragon 8gen2 voltage levels for sm8250 and the other chi
 
 ### Konabess voltage levels and real voltage
 <img src="https://raw.githubusercontent.com/AirStewart350/KonaBess/master/screenshots/IMG_20231009_160008.jpg" width="180" height="400" /> <img src="[https://raw.githubusercontent.com/AirStewart350/KonaBess/master/screenshots/IMG_20231009_160008.jpg](https://raw.githubusercontent.com/AirStewart350/KonaBess/master/screenshots/Screenshot_2023-10-09-15-45-24-58_ae1f93045b87aacac90efbb155289789.jpg)https://raw.githubusercontent.com/AirStewart350/KonaBess/master/screenshots/Screenshot_2023-10-09-15-45-24-58_ae1f93045b87aacac90efbb155289789.jpg" width="180" height="400" />
-the minimum voltage for sm8250 is Min_svs(370mV)
+
+note:the minimum voltage for sm8250 is 370mV, although you can select the retention konabess level, the real voltage is same as Min_svs(48)
