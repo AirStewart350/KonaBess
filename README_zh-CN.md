@@ -41,3 +41,12 @@
 
 ### 截图
 <img src="https://raw.githubusercontent.com/xzr467706992/KonaBess/master/screenshots/ss1.jpg" width="180" height="400" /> <img src="https://raw.githubusercontent.com/xzr467706992/KonaBess/master/screenshots/ss2.jpg" width="180" height="400" /> <img src="https://raw.githubusercontent.com/xzr467706992/KonaBess/master/screenshots/ss3.jpg" width="180" height="400" /> 
+
+### 我自己魔改的部分
+
+我给其他soc移植了部分8gen2的电压档位以及原创了一些档位，以便于更灵活的调整电压，从而更好的适应不同的体质
+
+### 电压档位对应表
+<img src="https://raw.githubusercontent.com/AirStewart350/KonaBess/master/screenshots/IMG_20231009_160008.jpg" width="180" height="330" /> <img src="https://raw.githubusercontent.com/AirStewart350/KonaBess/master/screenshots/Screenshot_2023-10-09-15-45-24-58_ae1f93045b87aacac90efbb155289789.jpg" width="180" height="400" />
+
+注：对于骁龙865/870最低电压是370mV，即使你能将konabess档位设置成低于min_svs（48）的电压
