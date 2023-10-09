@@ -43,3 +43,7 @@
 
 ### Screenshots
 <img src="https://raw.githubusercontent.com/xzr467706992/KonaBess/master/screenshots/ss1.jpg" width="180" height="400" /> <img src="https://raw.githubusercontent.com/xzr467706992/KonaBess/master/screenshots/ss2.jpg" width="180" height="400" /> <img src="https://raw.githubusercontent.com/xzr467706992/KonaBess/master/screenshots/ss3.jpg" width="180" height="400" /> 
+
+### My modifications
+
+I transplanted some Snapdragon 8gen2 voltage levels for sm8250 and the other chips to adjust the voltage better
